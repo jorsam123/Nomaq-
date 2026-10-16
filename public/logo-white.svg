@@ -1,0 +1,68 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 278 84' width='278' height='84' fill='none'>
+  <defs>
+    <linearGradient id='nomaq-body-white' x1='0%' y1='0%' x2='100%' y2='70%'>
+      <stop offset='0%' stop-color='#818CF8' />
+      <stop offset='30%' stop-color='#A78BFA' />
+      <stop offset='65%' stop-color='#C084FC' />
+      <stop offset='100%' stop-color='#E879F9' />
+    </linearGradient>
+    <linearGradient id='petal-grad-white' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color='#C4B5FD' />
+      <stop offset='50%' stop-color='#DDD6FE' />
+      <stop offset='100%' stop-color='#F3E8FF' />
+    </linearGradient>
+  </defs>
+
+  <!-- Letter N -->
+  <path
+    d='M 9 58 V 8 H 22.5 L 42 41 V 8 H 51 V 58 H 37.5 L 18 25 V 58 Z'
+    fill='url(#nomaq-body-white)'
+  />
+
+  <!-- Letter o (Target Reticle Aperture) -->
+  <g transform='translate(77.5, 38)'>
+    <circle cx='0' cy='0' r='18.5' stroke='url(#nomaq-body-white)' stroke-width='3.2' fill='none' />
+    <!-- 4 Crosshair Ticks -->
+    <line x1='0' y1='-23.5' x2='0' y2='-18.5' stroke='url(#nomaq-body-white)' stroke-width='3' stroke-linecap='round' />
+    <line x1='0' y1='18.5' x2='0' y2='23.5' stroke='url(#nomaq-body-white)' stroke-width='3' stroke-linecap='round' />
+    <line x1='-23.5' y1='0' x2='-18.5' y2='0' stroke='url(#nomaq-body-white)' stroke-width='3' stroke-linecap='round' />
+    <line x1='18.5' y1='0' x2='23.5' y2='0' stroke='url(#nomaq-body-white)' stroke-width='3' stroke-linecap='round' />
+    <!-- 4 Petals -->
+    <path d='M 2.2 -2.2 C 2.5 -7.5 7.5 -13.5 14.5 -13.5 C 14.5 -6.5 8.5 -2.5 2.2 -2.2 Z' fill='url(#petal-grad-white)' />
+    <path d='M -2.2 -2.2 C -2.5 -7.5 -7.5 -13.5 -14.5 -13.5 C -14.5 -6.5 -8.5 -2.5 -2.2 -2.2 Z' fill='url(#petal-grad-white)' />
+    <path d='M -2.2 2.2 C -2.5 7.5 -7.5 13.5 -14.5 13.5 C -14.5 6.5 -8.5 2.5 -2.2 2.2 Z' fill='url(#petal-grad-white)' />
+    <path d='M 2.2 2.2 C 2.5 7.5 7.5 13.5 14.5 13.5 C 14.5 6.5 8.5 2.5 2.2 2.2 Z' fill='url(#petal-grad-white)' />
+    <!-- 4-point Star opening -->
+    <path d='M 0 -3.5 Q 0 0, 3.5 0 Q 0 0, 0 3.5 Q 0 0, -3.5 0 Q 0 0, 0 -3.5 Z' fill='#080C1A' />
+  </g>
+
+  <!-- Letter m -->
+  <path
+    d='M 105 58 V 20 H 116 V 27.5 C 119 22 125 19.5 132 19.5 C 138.5 19.5 143 22.5 145.5 27.5 C 149 22 155.5 19.5 162.5 19.5 C 173 19.5 178 26 178 37 V 58 H 167 V 39 C 167 31.5 163.5 29 158.5 29 C 153 29 149.5 33 149.5 40 V 58 H 138.5 V 39 C 138.5 31.5 135 29 130 29 C 124.5 29 121 33 121 40 V 58 H 105 Z'
+    fill='url(#nomaq-body-white)'
+  />
+
+  <!-- Letter a -->
+  <path
+    d='M 197 58.8 C 187 58.8 180 50.5 180 39 C 180 27.5 187.5 19.5 197.5 19.5 C 203.5 19.5 208 22.5 210.5 26.5 V 20 H 221.5 V 58 H 211 V 52 C 208.5 56 203.5 58.8 197 58.8 Z M 201.5 49.5 C 207 49.5 211 45 211 39 C 211 33 207 28.5 201.5 28.5 C 196 28.5 191.5 33 191.5 39 C 191.5 45 196 49.5 201.5 49.5 Z'
+    fill='url(#nomaq-body-white)'
+  />
+
+  <!-- Letter q (round bowl on LEFT and descending vertical stem on RIGHT) -->
+  <path
+    d='M 259 20 H 270.5 V 76 H 259 V 53.5 C 256.5 56.5 251.5 58.8 245 58.8 C 234.5 58.8 227 50.5 227 39 C 227 27.5 234.5 19.5 245 19.5 C 251.5 19.5 256.5 22 259 25.5 V 20 Z M 247.5 28.5 C 242 28.5 238 33 238 39 C 238 45 242 49.5 247.5 49.5 C 253 49.5 257 45 257 39 C 257 33 253 28.5 247.5 28.5 Z'
+    fill='url(#nomaq-body-white)'
+  />
+
+  <!-- Text 'Group PLC' - positioned directly beneath 'maq' and ending just before the stem of 'q' -->
+  <text
+    x='254'
+    y='75'
+    text-anchor='end'
+    font-family="'Outfit', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+    font-weight='600'
+    font-size='15.5'
+    letter-spacing='0.04em'
+    fill='#C7D2FE'
+  >Group PLC</text>
+</svg>
